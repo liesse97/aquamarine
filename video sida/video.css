@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(/login/img/login_bakgrund.png) no-repeat center center fixed;
+}
+.logo {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+li,
+a,
+button {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header {
+  border: 2px solid black;
+  background-color: rgb(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 5%;
+}
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(3, 112, 49);
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
+.ut {
+  margin-left: auto;
+}
+.fa-chevron-down {
+  color: #ff7920;
+}

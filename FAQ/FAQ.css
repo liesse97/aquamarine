@@ -7,7 +7,7 @@
 body {
   text-align: center;
   font-family: "Roboto Mono", monospace;
-  background: url(img/login_bakgrund.png) no-repeat center center fixed;
+  background: url(/login/img/login_bakgrund.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
