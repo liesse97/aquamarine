@@ -1,48 +1,43 @@
+body {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  background: url(img/login_bakgrund.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+h1 {
+  font-size: 5em;
+  color: #ff7920;
+  text-shadow: 5px 5px 5px black;
+  margin-bottom: -30px;
+}
 
-  body{
-      text-align: center;
-      font-family: 'Roboto Mono', monospace;
-      background: url(img/login_bakgrund.png) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-  }
+h6 {
+  color: white;
+  text-shadow: 3px 3px 5px black;
+  font-size: 1em;
+}
 
-  h1{
-    font-size:5em;
-    color: #ff7920;
-    text-shadow: 5px 5px 5px black;
-    margin-bottom:-30px;
-  }
+input[type="text"] {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 25px;
+  padding: 4px;
+}
 
-
-  h6{
-    color:white;
-    text-shadow: 3px 3px 5px black;
-    font-size:1em;
-  }
-
-
-  input[type=text] {
-    border: 1px solid black;
-    border-radius: 8px;
-    width:300px;
-    height:25px;
-    padding: 4px;
-
-  }
-
-input [placeholder=Epost]{
+input [placeholder="Epost"] {
   text-align: center;
 }
 
-input[type=submit] {
-  padding:5px 15px; 
+input[type="submit"] {
+  padding: 5px 15px;
   background: #ff7920;
-  border:0 none;
-  cursor:pointer;
+  border: 0 none;
+  cursor: pointer;
   -webkit-border-radius: 5px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
