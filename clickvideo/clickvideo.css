@@ -1,0 +1,33 @@
+.tube_video img {
+  margin-top: 30px;
+  width: 450px;
+  height: 300px;
+}
+
+.ordered_li {
+  color: #ffffff;
+  font-size: 17px;
+  padding-top: 12px;
+}
+.ordered h3 {
+  color: #ffffff;
+  font-size: 25px;
+}
+.ordered {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.go_back {
+  display: flex;
+  font-size: 55px;
+  padding-left: 30px;
+}
+
+#left1 {
+  color: #fff;
+}
+#left2 {
+  color: #ff7920;
+}
