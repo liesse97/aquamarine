@@ -13,12 +13,12 @@ function openFaq(e){
     }
 
     if(e.target.classList.contains('display')){
-         e.target.nextElementSibling.style.display = 'none';
+         e.target.nextElementSibling.style.display = 'block';
   
         e.target.querySelector('span').innerHTML= '<i class="fas fa-angle-up"></i>';
     } else{
        
-             e.target.nextElementSibling.style.display = 'block';
+             e.target.nextElementSibling.style.display = 'none';
         e.target.querySelector('span').innerHTML= '<i class="fas fa-angle-down"></i>';
         
 }
