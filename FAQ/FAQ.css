@@ -58,7 +58,7 @@ body {
 .text {
   color: #000;
 }
-.faq .answer {
+.answer {
   border: 2px white solid;
   width: auto;
   background-color: #fff;
@@ -66,13 +66,13 @@ body {
   padding: 6px;
   box-shadow: 5px 5px 5px 5px #000;
 
-  /* display: none; */
+  display: none;
 }
-/* .faq {
+.faq {
   width: 100%;
   position: relative;
-  width: 880px;
-} */
+  /* width: 880px; */
+}
 
 .faq .question {
   padding: 10px;
@@ -91,8 +91,12 @@ body {
   cursor: pointer;
   outline: none;
 }
-/* .faq .question:hover button {
-  color: #ff7920;
+.faq .question:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* .faq .answer {
+  max-height: 0;
+  overflow: hidden;
 } */
 .faq .question i {
   color: #ff7920;
@@ -101,4 +105,9 @@ body {
 /*javascript*/
 .fa-angle-up {
   color: #ff7920;
+}
+
+.go_back {
+  display: flex;
+  justify-content: flex-start;
 }
